@@ -64,7 +64,7 @@
 
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {
-	display: true;
+	display: false;
 }
 
 .owl-carousel .owl-nav .owl-prev,
