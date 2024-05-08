@@ -58,6 +58,15 @@ https://templatemo.com/tm-516-known
     margin-bottom: 0;
 	color: #454545;
   }
+  
+    h6 {
+    font-size: 2em;
+    margin-bottom: 0;
+	color: #ffffff;
+	background: #265D93;
+	  }
+  
+  
   p {
     color: #757575;
     font-size: 18px;
@@ -370,7 +379,7 @@ img {
   #home h3 {
     color: #f9f9f9;
 	background-color: #001532;
-    font-size: 16px;
+    font-size: 34px;
     font-weight: 400;
     margin: 0;
     padding: 5px 10px 20px 10px;
@@ -397,25 +406,28 @@ img {
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    height: 500px;
   }
   
-  .caption h3 a { color: #FFF;}
-  .caption h3 a:hover { color: #FF3; }
-
+  .caption h1 a { 
+	color: #FFF;
+}
+  .caption h1 a:hover { 
+	color: #FF3; 
+}
   .home-slider .item-first {
-    background-image: url(../images/hsb.jpg);
+    background-image: url(../images/graduates.jpg);
 	background-position: center;
   }
-
   .home-slider .item-second {
-    background-image: url(../images/caerdeon.jpg);
+    background-image: url(../images/artforchange.jpg);
   }
-
   .home-slider .item-third {
-    background-image: url(../images/studentsWalking.jpg);
+    background-image: url(../images/sportsci.jpg);
 }
-
+  .home-slider .item-fourth {
+    background-image: url(../images/vr.jpg);
+}
 
 
   /*---------------------------------------
@@ -1071,7 +1083,7 @@ img {
 
 .flex-container > div {
   background-color: red;
-  width: 500px
+  width: 600px
   margin: 50px;
   text-align: left;
  }
